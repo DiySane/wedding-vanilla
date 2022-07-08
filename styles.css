@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.vl {
+  border-left: 6px solid green;
+  /* height: 500px; */
+  height: 80vh;
+}
+
+.party {
+  flex: 1;
+  padding: 3vw;
+  justify-self: center;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  margin: auto;
+  /* width: 60%; */
+  /* border: 3px solid #73AD21; */
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.partyContent {
+  flex: 5;
+  padding: 20px;
+}
+
+.arrow {
+  flex: 1;
+  height: 50vh;
+}
+
+.hidden {
+  /* visibility: hidden; */
+  display: none;
+}
+
+.visible {
+  /* visibility: visible; */
+  display: block;
+}
+
+.homeContainer {
+  flex-flow: row wrap;
+}
+
+.childContainer {
+  flex-flow: column wrap;
+}
