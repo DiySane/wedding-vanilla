@@ -49,8 +49,16 @@
 
 .homeContainer {
   flex-flow: row wrap;
+  background-image: url("assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .childContainer {
   flex-flow: column wrap;
+}
+
+.back {
+  background-image: url("assets/images/bg.jpg");
+  background-position: center;
 }
