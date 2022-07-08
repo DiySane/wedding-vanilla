@@ -42,7 +42,7 @@
   flex: 1;
   height: 50vh;
   text-orientation: upright;
-  writing-mode: vertical-rl;
+  /* writing-mode: vertical-rl; */
   font-family: "arhialkhanMJBold";
 }
 
